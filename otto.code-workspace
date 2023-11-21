@@ -4,5 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			"./otto-controllers/Cargo.toml",
+			"./otto-listener/Cargo.toml",
+			"./sinch-client/Cargo.toml"
+		]
+	}
 }
